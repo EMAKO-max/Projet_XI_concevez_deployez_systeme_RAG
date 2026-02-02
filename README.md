@@ -28,6 +28,8 @@ Démontrer la génération de réponses augmentées (RAG)
 
 Fournir une base technique exploitable pour une future mise en production
 
+
+
                   3. Installations
 
 - Créer un environnement virtuel et activer le.
@@ -48,6 +50,8 @@ Projet_XI/
 │   └── query_classifier.py     # Logique RAG / direct
 └── data/
     └── vector_index_langchain/ # Index FAISS sauvegardé
+
+![Architecture du pipeline](architect.png)
 
              5-1: Récupération des données OpenAgenda
 
